@@ -14,7 +14,7 @@
             "console": "integratedTerminal",
             "justMyCode": false,
             "env": {
-                "OPENAI_API_KEY": "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"  // Add this if using environment variables
+                "OPENAI_API_KEY": ""  // Add this if using environment variables
             },
             "envFile": "${workspaceFolder}/.env",       // Point to your .env file if used
             "cwd": "${workspaceFolder}/whisper_api"
