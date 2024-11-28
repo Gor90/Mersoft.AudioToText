@@ -4,7 +4,8 @@ import torch
 from fastapi import FastAPI, File, UploadFile
 from typing import List
 from openai import OpenAI
-client = OpenAI()
+
+# client = OpenAI()
 
 app = FastAPI()
         
