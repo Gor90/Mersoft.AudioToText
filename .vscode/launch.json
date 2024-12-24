@@ -14,7 +14,9 @@
             "console": "integratedTerminal",
             "justMyCode": false,
             "env": {
-                "OPENAI_API_KEY": ""  // Add this if using environment variables
+                "WATCH_FOLDER":"./watch_folder",
+                "MONGO_URI": "mongodb://mongodb:password@localhost:27017",
+                "ATS_CUSTOMER_KEY": "RmFaZTRGZkpFcG5zMDBiL1BjTHpKbjBvdGJuN3BhL3dHNTVaODJCQnp2VT0="
             },
             "envFile": "${workspaceFolder}/.env",       // Point to your .env file if used
             "cwd": "${workspaceFolder}/whisper_api"
