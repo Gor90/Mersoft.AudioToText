@@ -205,9 +205,9 @@ async def fetch_history_and_call_records():
 
 
 # Start the background scheduler
-# scheduler = AsyncIOScheduler()
-# scheduler.add_job(fetch_history_and_call_records, "interval", seconds=3600)  # Check every 1 hour
-# scheduler.start()
+scheduler = AsyncIOScheduler()
+scheduler.add_job(fetch_history_and_call_records, "interval", seconds=3600)  # Check every 1 hour
+scheduler.start()
 
 # Keep the async loop running
 
