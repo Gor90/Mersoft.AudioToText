@@ -145,6 +145,7 @@ async def fetch_history_and_call_records():
 
     date_end = datetime.now()
     date_start = date_end - timedelta(days=1)
+    print(ATS_CUSTOMER_KEY);
     
     # History endpoint parameters
     history_params = {
